@@ -26,6 +26,8 @@ fastify
     if (err) throw err;
   });
 
+// dir routes give me a 'already sent' error msg!
+
 // NO PROBLEMO:
 //   http://localhost:3000/node_modules/@fastify   <-- no trailing slash
 // HAS PROBLEM:
